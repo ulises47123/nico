@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Nicolás Alejandro Mamani</title>
+    <style>
+        /* Estilos pensados para lectura humana: una columna, tipografía clásica y foto local */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: #000000;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #ffffff;
+        }
+
+        /* Encabezado con foto local */
+        header {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #000000;
+            padding-bottom: 20px;
+        }
+
+        .profile-img-container {
+            flex-shrink: 0;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #333;
+        }
+
+        .header-text {
+            flex-grow: 1;
+        }
+
+        h1 {
+            font-size: 24pt;
+            margin-top: 0;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #000000;
+        }
+
+        h2 {
+            font-size: 14pt;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            padding-bottom: 3px;
+            border-bottom: 1px solid #000000;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #000000;
+        }
+
+        .contact-info p {
+            margin: 2px 0;
+            font-size: 11pt;
+        }
+
+        .section-content {
+            margin-bottom: 20px;
+        }
+
+        .item-block {
+            margin-bottom: 15px;
+        }
+
+        .item-header {
+            font-weight: bold;
+            font-size: 12pt;
+            margin-bottom: 2px;
+        }
+
+        .item-sub {
+            font-style: italic;
+            margin-bottom: 2px;
+        }
+
+        .item-date {
+            color: #333333;
+            font-size: 10.5pt;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            margin-top: 5px;
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        .skills-category {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="profile-img-container">
+            <!-- La imagen debe llamarse nico.jpg y estar en la misma carpeta que este HTML -->
+            <img src="nico.jpg" alt="Fotografía de Nicolás Alejandro Mamani" class="profile-img">
+        </div>
+        <div class="header-text">
+            <h1>Nicolás Alejandro Mamani</h1>
+            <div class="contact-info">
+                <p><strong>Edad:</strong> 20 años</p>
+                <p><strong>Teléfono:</strong> +54 9 388 415-7634</p>
+                <p><strong>Email:</strong> n02006312@gmail.com</p>
+                <p><strong>Ubicación:</strong> Los Alisos, Jujuy</p>
+                <!-- Si tenés LinkedIn, descomentá y completá esta línea:
+                <p><strong>LinkedIn:</strong> linkedin.com/in/tu-perfil</p>
+                -->
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <h2>Resumen Profesional</h2>
+        <div class="section-content">
+            <p>Estudiante de Tecnicatura en Electricidad con experiencia práctica en instalaciones residenciales. Realicé cableado, montaje de tomacorrientes e instalación de sistemas de iluminación, aplicando normas de seguridad vigentes. Busco mi primera posición formal como ayudante electricista para seguir aprendiendo y aportar en proyectos eléctricos.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experiencia Profesional</h2>
+        <div class="section-content">
+            <div class="item-block">
+                <p class="item-header">Ayudante de Instalaciones Eléctricas Domiciliarias</p>
+                <p class="item-sub">Proyectos Independientes / Prácticas Formativas</p>
+                <p class="item-date">05/2025 - Actualidad</p>
+                <ul>
+                    <li>Realicé cableado, montaje de tomacorrientes e instalación de sistemas de iluminación en viviendas.</li>
+                    <li>Apliqué normas de seguridad eléctrica durante todos los trabajos.</li>
+                    <li>Colaboré con el equipo en la resolución de requerimientos técnicos en obra, siguiendo instrucciones de superiores.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Formación Académica</h2>
+        <div class="section-content">
+            <div class="item-block">
+                <p class="item-header">Tecnicatura en Electricidad (En curso)</p>
+                <p class="item-sub">Instituto Técnico Superior del Colegio de Técnicos de Jujuy</p>
+                <p class="item-date">En curso</p>
+            </div>
+
+            <div class="item-block">
+                <p class="item-header">Curso Básico de Electricidad</p>
+                <p class="item-sub">Centro de Formación Profesional N° 1</p>
+                <p class="item-date">2024</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Habilidades</h2>
+        <div class="section-content">
+            <p class="skills-category">Técnicas:</p>
+            <ul>
+                <li>Instalaciones eléctricas domiciliarias (cableado, iluminación, tomacorrientes).</li>
+                <li>Conocimiento y aplicación de normativas de seguridad vigentes para instalaciones eléctricas.</li>
+                <li>Lectura y comprensión básica de planos eléctricos.</li>
+            </ul>
+
+            <p class="skills-category">Transversales:</p>
+            <ul>
+                <li>Trabajo en equipo y colaboración en entornos guiados.</li>
+                <li>Capacidad de aprendizaje práctico e incorporación rápida de procesos técnicos.</li>
+                <li>Disponibilidad para trabajar en horarios rotativos o fines de semana, si el proyecto lo requiere.</li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+</html>
